@@ -1,6 +1,5 @@
-idade = 18
+inteiro = 10
+flutuante = 3.14
+texto = "Olá, mundo!"
+booleano = True
 
-if idade >= 18:
-    print("Você é maior de idade.")
-else:
-    print("Você é menor de idade.")
