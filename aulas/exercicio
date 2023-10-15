@@ -1,0 +1,131 @@
+""" Exercício:
+
+Crie um programa Python que simule um pedágio rodoviário. O programa deve solicitar ao usuário informações 
+sobre o tipo de veículo (carro, moto, caminhão, etc.) e a quantidade de eixos do veículo. 
+Com base nessas informações, o programa deve calcular o valor do pedágio de 
+acordo com a tabela de tarifas a seguir:
+
+Carros e motos (até 2 eixos): R$ 5,00
+Veículos com 3 a 4 eixos: R$ 9,00
+Veículos com 5 a 7 eixos: R$ 12,00
+Veículos com 8 ou mais eixos: R$ 15,00
+O programa deve exibir o valor do pedágio para o usuário. Certifique-se de 
+incluir verificações para garantir que as informações fornecidas pelo usuário sejam válidas. """
+
+#----------------------------RESPOSTA DO ECERCICIO ABAIXO, OLHE SE ACHAR FOR FRACO E LHE FALTAR ÓDIO-----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#----------------------------TUDO BEM OLHAR, NINGUÉM NASCE SABENDO NÃO É MESMO? -------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#--------------------------- A RESPOSTA ESTÁ ABAIXO, JOVEM PADAWAN, QUE O "HELLO, WORLD!" ESTEJA COM VOCÊ -------------------------------------
+
+print("Bem-vindo ao Simulador de Pedágio")
+
+# Solicita o tipo de veículo e a quantidade de eixos
+tipo_veiculo = input("Digite o tipo de veículo (carro, moto, caminhão, etc.): ")
+quantidade_eixos = int(input("Digite a quantidade de eixos do veículo: "))
+
+# Inicializa a variável para armazenar o valor do pedágio
+valor_pedagio = 0
+
+# Verifica o tipo de veículo e a quantidade de eixos
+if quantidade_eixos <= 2:
+    valor_pedagio = 5.00
+elif 3 <= quantidade_eixos <= 4:
+    valor_pedagio = 9.00
+elif 5 <= quantidade_eixos <= 7:
+    valor_pedagio = 12.00
+elif quantidade_eixos >= 8:
+    valor_pedagio = 15.00
+else:
+    print("Quantidade de eixos inválida. O veículo não pode ser categorizado.")
+
+# Exibe o valor do pedágio, se válido
+if valor_pedagio > 0:
+    print(f"O valor do pedágio para um {tipo_veiculo} com {quantidade_eixos} eixos é: R${valor_pedagio:.2f}")
+else:
+    print("Não é possível calcular o valor do pedágio devido às informações incorretas.")
+
+
+
+
