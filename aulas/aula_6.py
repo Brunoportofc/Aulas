@@ -1,7 +1,7 @@
 """  Calculadora de Média: Crie um programa que 
 calcule a média de três notas fornecidas pelo usuário. """
 
-# Resposta 6
+# exemplo 6
 nota1 = float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
 nota3 = float(input("Digite a terceira nota: "))
